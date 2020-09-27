@@ -1,10 +1,13 @@
 export class Quote {
     constructor(
         public id: number,
-        public title: string,
-        public description: string,
-        public date: Date
+        public quote: string,
+        public author: string,
+        public user: string,
+        public date: Date,
+        public upvotes: number,
+        public downvotes: number
     ) { }
 
-    
+
 }

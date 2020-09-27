@@ -13,3 +13,4 @@ export class QuoteDetailComponent implements OnInit {
   }
 
 }
+
