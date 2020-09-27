@@ -1,7 +1,7 @@
 <!-- Card -->
 <div class="container">
   <div>
-    <app-form (addQuote)= "newQuote($event)"></app-form>
+    <app-form (addQuote)="newQuote($event)"></app-form>
   </div>
 
   <div class="row">
@@ -20,7 +20,13 @@
             <i class="fas fa-thumbs-up pr-5 h2"></i>
             <i class="far fa-thumbs-down h2"></i>
           </span>
-          {{quote.upvotes}}
+          <span class="row">
+           <p>{{quote.upvotes}}</p>
+            <p class="pl-5">{{quote.downvotes}}</p>
+          
+          </span>
+
+
 
         </div>
 
