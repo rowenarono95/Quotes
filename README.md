@@ -1,11 +1,11 @@
 # Quotes
 
 ## Description
-This application allows users to read throught the provided quotes, upvote them if they are inspirational or downvote them if they are terrible. They also create their own quotes and delete quotes if they deem not necessary.
+This is an app where users can create quotes and have those quotes voted on whether they are terrible or are inspirational and also able to delete a quote if done with it.
 
 ## Versioning
 
- Iquote-V1.0 
+ Quote-V1.0 
 
 ## Author
 
@@ -24,11 +24,11 @@ As a user of the web application you will be able to:
 ## Behaviour Driven Development (BDD)
 | Behavior | Input Example- When it receives: | Output Example- It should return: |
 | :-------------: | :-------------: | :-------------: |
-| Create a QUote | Good day starts in the morning | Display quote: "Good day starts in the moring" |
+| Create a QUote | You can never walk alone | Display quote: "You can never walk alone" |
 | Delete a quote | Delete Action | Deleted Quote is wiped from the quotes in the browser |
 | Up Vote a Quote | Up vote action | Up votes count increases by one.|
 | Down Vote a Quote | Down vote action | Down votes increases by one |
-| Reveal the best quote | User clicks on reveal the best quote button | best quote is displayed and highlighted|
+| Favorite quote | User clicks on the favorite quote button | favorite quote is displayed and highlighted|
 
 
 ## Getting started
@@ -50,7 +50,7 @@ As a user of the web application you will be able to:
     * **git clone https://github.com/atembamanu/iQuotes.git**
 *   The repo comes in a zipped or compressed format. Extract to your prefered location and open it.
 
-* now open the directory created with your favorite IDE. if Atom just type **.atom** if VSCode type **.code** . This will lauch the editor with the project setup, 
+* now open the directory created with your favorite IDE. if VSCode type **.code** . This will lauch the editor with the project setup, 
 
 * Now feel free to hack around the project.
 
@@ -67,4 +67,4 @@ Rowena Rono
 
 ### License
 
-* LICENSED UNDER  [![License: MIT]](licence)
+ [[License: MIT]](licence)

@@ -6,37 +6,37 @@
   <button type="button" class="btn btn-primary" (click)="favQuote()">
     Fav Quote
   </button>
- 
-<div *ngIf ='favquote'>
 
-  <div class="row">
-    <div class="col">
-      <div class="card">
-        <div class="card-body">
-          <h4 class="card-title text-center text-uppercase text-primary">{{favauthor}}</h4>
-          <i class="fas fa-quote-left"></i>
-          <p>{{favquote}}</p>
-          <span class="row pl-3">Created By:
-            <p>{{favuser}}</p>
-            <p class="pl-5">{{days|date}}</p>
-            days ago
-          </span>
-          <span class="row">
-            <i class="fas fa-thumbs-up pr-5 h2"></i>
-            <p><i class="far fa-thumbs-down h2"></i></p>
-          </span>
-          <span class="row">
-            <p class="pr-5">{{favvotes}}</p>
-            <p class="pr-6">{{listvotes}}</p>
-          </span>
+  <div *ngIf='favquote'>
+
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <div class="card-body bg-default">
+            <h4 class="card-title text-center text-uppercase text-primary">{{favauthor}}</h4>
+            <i class="fas fa-quote-left"></i>
+            <p>{{favquote}}</p>
+            <span class="row pl-3">Created By:
+              <p>{{favuser}}</p>
+              <p class="pl-5">{{days|date}}</p>
+              days ago
+            </span>
+            <span class="row">
+              <i class="fas fa-thumbs-up pr-5 h2"></i>
+              <p><i class="far fa-thumbs-down h2"></i></p>
+            </span>
+            <span class="row">
+              <p class="pr-5">{{favvotes}}</p>
+              <p class="pr-6">{{listvotes}}</p>
+            </span>
+          </div>
         </div>
-      </div>
 
+      </div>
     </div>
+
   </div>
 
-</div>
- 
 
   <div class="row pt-3">
     <div class="col-md-4 mb-4 d-flex align-items-stretch" *ngFor="let quote of quotes;let delete =index">
