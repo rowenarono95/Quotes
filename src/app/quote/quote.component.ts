@@ -12,6 +12,13 @@ export class QuoteComponent implements OnInit {
   downvotes = 0;
   isComplete = true;
 
+  favquote: string;
+  favauthor: string;
+  favuser: string;
+  favvotes: number;
+  listvotes: number;
+  days: Date
+
   quotes: Quote[] = [
     new Quote(0, "I’ve learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.", "Maya Angelou", "Rowena Rono", new Date(), 0, 0),
     new Quote(1, "Life is not measured by the number of breaths you take but by the moments that take your breath away.", "Maya Angelou", "Rowena Rono", new Date(), 0, 0),
@@ -28,10 +35,26 @@ export class QuoteComponent implements OnInit {
 
 
   upVote(quote) {
-    quote.upvotes= quote.upvotes+1 ;    
+    quote.upvotes = quote.upvotes + 1;
   }
   downVote(quote) {
-    quote.downvotes= quote.downvotes+1 ;    
+    quote.downvotes = quote.downvotes + 1;
+  }
+
+  favQuote() {
+    this.favvotes = 0;
+    for (let i = 0; i < this.quotes.length; i++) {
+      if (this.quotes[i].upvotes > this.favvotes) {
+        this.favvotes = this.quotes[i].upvotes;
+        this.favauthor = this.quotes[i].author;
+        this.favquote = this.quotes[i].quote;
+        this.favuser = this.quotes[i].user;
+        this.listvotes = this.quotes[i].downvotes;
+        this.days = this.quotes[i].date;
+      }
+    }
+
+
   }
 
 
