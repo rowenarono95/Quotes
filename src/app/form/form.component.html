@@ -2,6 +2,9 @@
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#basicExampleModal">
   New Quote
 </button>
+<button type="button" class="btn btn-primary">
+  Fav Quote
+</button>
 
 <div class="modal fade" id="basicExampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
   aria-hidden="true">
@@ -18,8 +21,8 @@
           <div class="form-group">
 
             <label for="name">Author</label>
-            <input type="text" class="form-control" id="author" [(ngModel)]="newQuote.author" name="author"
-              #author='ngModel' required>
+            <input type="text" class="form-control" id="author" [(ngModel)]="newQuote.author" name="author" #author='ngModel'
+              required>
             <div [hidden]="author.valid || author.pristine" class="alert alert-danger">
               <p>Author is required</p>
             </div>
@@ -27,8 +30,8 @@
           <div class="form-group">
 
             <label for="quote">Quote</label>
-            <textarea class="form-control" id="quote" rows="4" [(ngModel)]="newQuote.quote" name="quote"
-              #quote="ngModel" required></textarea>
+            <textarea class="form-control" id="quote" rows="4" [(ngModel)]="newQuote.quote"
+              name="quote" #quote="ngModel" required></textarea>
             <div [hidden]="quote.valid || quote.pristine" class="alert alert-danger">
               <p>Quote is required</p>
             </div>
@@ -36,8 +39,7 @@
           <div class="form-group">
 
             <label for="complete">Publisher</label>
-            <input type='text' class="form-control" id="user" [(ngModel)]="newQuote.user" name="user" #user="ngModel"
-              required>
+            <input type='text' class="form-control" id="user" [(ngModel)]="newQuote.user" name="user" #user="ngModel" required>
             <div [hidden]="user.valid || user.pristine" class="alert alert-danger">
               <p>Publisher is required</p>
             </div>
