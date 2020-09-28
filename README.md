@@ -30,10 +30,6 @@ As a user of the web application you will be able to:
 | Down Vote a Quote | Down vote action | Down votes increases by one |
 | Reveal the best quote | User clicks on reveal the best quote button | best quote is displayed and highlighted|
 
-## Working Live Application
-The project is hosted on Firebase hosting
-
-https://iquotes-df6d5.firebaseapp.com/
 
 ## Getting started
 
