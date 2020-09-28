@@ -51,15 +51,15 @@
             days ago
           </span>
           <span class="row">
-            <i class="fas fa-thumbs-up pr-5 h2" (click)='upVote(quote)'></i>
-            <p><i class="far fa-thumbs-down h2" (click)='downVote(quote)'></i></p>
+            <i class="fas fa-thumbs-up pr-4 h1 text-danger" (click)='upVote(quote)'></i>
+            <p><i class="far fa-thumbs-down h1 text-primary" (click)='downVote(quote)'></i></p>
           </span>
           <span class="row">
             <p class="pr-5">{{quote.upvotes}}</p>
-            <p class="pr-6">{{quote.downvotes}}</p>
+            <p class="pr-5">{{quote.downvotes}}</p>
           </span>
           <div>
-            <i class="fas fa-trash-alt" (click)='deleteQuote($event,delete)'></i>
+            <i class="fas fa-trash-alt h3 text-danger" (click)='deleteQuote($event,delete)'></i>
           </div>
         </div>
       </div>

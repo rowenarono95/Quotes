@@ -4,3 +4,11 @@
     background-size: cover;
     background-position: center;
 }
+.text-center{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    color: brown;
+    box-shadow: 5px 10px black;
+    text-shadow: 2px 5px black;
+    font-size: 50px;
+}
