@@ -9,7 +9,11 @@ This is an app where users can create quotes and have those quotes voted on whet
 
 ## Author
 
-* [**atembamanu**](https://github.com/atembamanu)
+* ROWENA RONO
+
+### Live Link
+
+* https://rowenarono95.github.io/Quotes/
 
 ## Features
 
@@ -47,7 +51,7 @@ As a user of the web application you will be able to:
 * use **git clone** the url to get the project to your local computer.
 
 
-    * **git clone https://github.com/atembamanu/iQuotes.git**
+    * **git clone https://github.com/rowenarono95/Quotes.git**
 *   The repo comes in a zipped or compressed format. Extract to your prefered location and open it.
 
 * now open the directory created with your favorite IDE. if VSCode type **.code** . This will lauch the editor with the project setup, 
@@ -59,10 +63,6 @@ Run **ng serve** to view the project on your local machine
 
 ## Technologies Used
 The application is developed using **ANGULAR CLI**
-
-
-## Support and Team
-Rowena Rono
 
 
 ### License
