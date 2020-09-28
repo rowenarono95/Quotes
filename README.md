@@ -66,11 +66,9 @@ The application is developed using **ANGULAR CLI**
 
 
 ## Support and Team
-Emmanuel Atemba
-
-Reach me out on [Slack me](https://slack.com/intl/en-ke/)  @atemba
+Rowena Rono
 
 
 ### License
 
-* LICENSED UNDER  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](licence)
+* LICENSED UNDER  [![License: MIT]](licence)
